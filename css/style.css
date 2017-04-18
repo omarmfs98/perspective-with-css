@@ -1,5 +1,5 @@
 body {
-    background: #241e49 url(../img/background.jpg) top center no-repeat;
+    background: #241e49 url(../img/background.jpg) center no-repeat;
     background-size: inherit;
     color: #fff;
 }
@@ -77,6 +77,9 @@ h1 {
 
 
 @media (max-width: 600px) {
+    body {
+        background-position: top !important;
+    }
     header {
         font-size: 0 !important;
     }
@@ -90,6 +93,9 @@ h1 {
 }
 
 @media (max-width: 1000px) {
+    body {
+        background-position: top !important;
+    }
     header {
         font-size: 0 !important;
     }
