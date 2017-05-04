@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Againts;
+    src: url(/fonts/againts.otf);
+}
+
 body {
     background: #241e49 url(../img/background.jpg) center no-repeat;
     background-size: inherit;
@@ -22,7 +27,7 @@ h1 {
     border-bottom: 0;
     font-weight: 100;
     letter-spacing: 2px;
-    font-family: 'againts';
+    font-family: 'Againts';
     position: relative;
     color: #fff;
     text-decoration: none;
