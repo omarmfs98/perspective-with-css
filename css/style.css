@@ -1,6 +1,6 @@
 @font-face {
     font-family: Againts;
-    src: url(/fonts/againts.otf);
+    src: url(../fonts/againts.otf);
 }
 
 body {
@@ -27,7 +27,7 @@ h1 {
     border-bottom: 0;
     font-weight: 100;
     letter-spacing: 2px;
-    font-family: 'Againts';
+    font-family: Againts;
     position: relative;
     color: #fff;
     text-decoration: none;
